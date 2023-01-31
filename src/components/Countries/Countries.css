@@ -1,0 +1,20 @@
+.one {
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    display: flex;
+    justify-content: center;
+    height: 28vh;
+    width: 48vw;
+    background-color: orangered;
+}
+
+p.first {
+    width: 48vw;
+    margin-left: 2vw;
+    transition: 0.5s linear;
+}
+
+.one:hover + p.first {
+    margin-left: 52vw;
+}
