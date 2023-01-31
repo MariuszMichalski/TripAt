@@ -1,20 +1,20 @@
-.one {
-    position: absolute;
+.countryWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.country {
     margin-top: 2vh;
     margin-left: 2vw;
     display: flex;
     justify-content: center;
     height: 28vh;
-    width: 48vw;
+    width: 45vw;
     background-color: orangered;
 }
 
-p.first {
-    width: 48vw;
+.showCountry {
+    width: 45vw;
     margin-left: 2vw;
-    transition: 0.5s linear;
 }
 
-.one:hover + p.first {
-    margin-left: 52vw;
-}

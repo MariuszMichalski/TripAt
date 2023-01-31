@@ -3,9 +3,13 @@ import './Countries.css'
 
 export const Countries = () => {
     return <>
-        <div className="one">
-            <h1>Kraje</h1>
+        <div className="countryWrapper">
+            <div className="country">
+                <h1>Kraje</h1>
+            </div>
+            <div className="showCountry">
+                <p className="countryP">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam at est et facilis fuga hic illo magni officiis? Culpa delectus enim magni minima quae sunt! Cum laudantium natus non quo.</p>
+            </div>
         </div>
-        <p className="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam at est et facilis fuga hic illo magni officiis? Culpa delectus enim magni minima quae sunt! Cum laudantium natus non quo.</p>
     </>
 }

@@ -1,0 +1,19 @@
+.shopWrapper {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.shop {
+    margin-top: 2vh;
+    margin-right: 2vw;
+    display: flex;
+    justify-content: center;
+    height: 28vh;
+    width: 45vw;
+    background-color: yellowgreen;
+}
+
+.showShop {
+    width: 45vw;
+    margin-right: 2vw;
+}
